@@ -1,0 +1,509 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    color: white;
+    position: absolute;
+    top: 22px;
+    left: 30%;
+}
+.heading{
+    color: white;
+    background-color:#316DC3;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1px;
+
+}
+.fa{
+    text-decoration: none;
+    color: white;
+    display: inline;
+  
+}
+
+li{
+    display: inline;
+    list-style: none;
+    padding: 4px;
+    margin-left: 30px;
+    
+}
+.unordered-clas{
+    position: absolute;
+    top: 10px;   
+}
+.fdiv{
+        background-color: white;
+        color: rgb(94, 145, 19);
+        border: 1px solid rgb(94, 145, 19);
+        position: absolute;
+        right: 18%;
+        top: 5px;
+        padding: 8px;
+        margin: 5px;
+        font-size: 13px;
+        text-decoration: none;
+}
+.sdiv{
+        background-color: white;
+        color: rgb(94, 145, 19);
+        border: 1px solid rgb(94, 145, 19);
+        position: absolute;
+        right: 12%;
+        top: 5px;
+        padding: 8px;
+        margin: 5px;
+        font-size: 13px;
+        text-decoration: none;
+}
+.tdiv{
+        background-color: white;
+        color: rgb(94, 145, 19);
+        border: 1px solid rgb(94, 145, 19);
+        position: absolute;
+        right: 6%;
+        top: 5px;
+        padding: 8px;
+        margin: 5px;
+        font-size: 13px;
+        text-decoration: none;    
+}
+
+
+/* yahan se dropdown button ka kaam h thiek h */
+
+.dropbtn {
+    
+    color:black;
+    padding: 19px;
+    font-size: 14px;
+    margin: 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 36px 36px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(25, 84, 167) ; color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(35, 90, 167);
+    color: white;
+  }
+.dropdivmain-container{
+ position: absolute;
+ top: 8%;
+ right: 8%;
+ margin: 10px;
+}
+.saylani-image-forheader
+{
+  height: 60px;
+  position: relative;
+  left: 16%;
+  top: 25px;
+}
+.background-color-for-drpdn-ndimage{
+  background-color:rgb(248, 246, 246);
+  width: 100%;
+  height: 90px;
+  margin: 0;
+}
+.image-back-donatecover{
+  width: 100%;
+}
+.heading-slide-pati{
+  background-color: rgb(35, 90, 167);
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  margin: 25px;
+}
+.intro-class-heading{
+  color:#316DC3;
+  margin-top: 50px;
+  margin-left:41% ;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.duction-class-heading{
+  color:#427900;
+  display: inline-block;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+.title-icon-smll{
+  height: 60px;
+  margin-left: 47%;
+}
+.line-intro-down{
+  color:#427900;
+  display: inline-block;
+  margin-left: 46%;
+  font-weight: bolder;
+  
+}
+.line-intro-down-down{
+  color:#427900;
+  display: inline-block;
+  margin: 20px;
+  font-weight: bolder;
+}
+.para-intro-para{
+  color: #666666;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.9em;
+  position: absolute;
+  left: 17%;
+right: 17%;
+}
+.facts-saylani-works-for{
+  background-color: rgba(36, 79, 242, 0.8) ;
+  color:#fff;
+  position: relative;
+  top: 530px;
+  }
+
+.data-record-div-cal-for-firstitem{
+  display: inline-block;
+}
+.icon-icn-food{
+  height: 40px;
+  margin: 40px 10px 10px 150px
+}
+.data-record-div-cal-for-seconditem{
+  display: inline-block;
+}
+.icon-icn-family{
+  height: 40px;
+  margin: 40px 10px 10px 150px
+}
+
+.data-record-div-cal-for-thirditem{
+  display: inline-block;
+}
+.icon-icn-medical{
+  height: 40px;
+  margin: 40px 10px 10px 100px
+}
+.data-record-div-cal-for-fourthitem{
+  display: inline-block;
+}
+.icon-icn-education{
+  height: 40px;
+  margin: 40px 10px 10px 100px
+}
+.cal-hissabb-people,.counting{
+  font-family: 'Merriweather', serif;
+  margin: 15px auto auto 70px;
+  padding: 10px;
+  line-height: 1.rem;
+  font-size: 3rem;
+}
+.counting1,.counting2{
+  font-family: 'Merriweather', serif;
+  margin: 15px auto 4px 50px;
+  padding: 10px;
+  line-height: 1.rem;
+  font-size: 3rem;
+}
+
+.family-adoption,.daily-dastarkhuwan,.medicalcare,.Education{
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  margin: 15px;
+  padding: 3px; 
+}
+.highlight1-monthly,.highlight2-monthly,.highlight3-monthly,.highlight4-monthly{
+  color: rgb(95, 230, 42);
+}
+
+.whatwearedoing{
+  position: relative;
+  top: 500px;
+}
+
+
+
+.intro-class-lower-heading{
+  color:#316DC3;
+  margin-top: 50px;
+  margin-left:38% ;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.duction-class-lower-heading{
+  color:#427900;
+  display: inline-block;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+.title-icon-smll-lower{
+  height: 60px;
+  margin-left: 47%; 
+}
+.line-intro-down-lower{
+  color:#427900;
+  display: inline-block;
+  margin-left: 46%;
+  font-weight: bolder;
+   
+}
+.line-intro-down-down-lower{
+  color:#427900;
+  display: inline-block;
+  margin: 20px;
+  font-weight: bolder; 
+}
+.container1{
+ display: flex;
+ display: inline-flex;
+ justify-content: center;
+ background-color: #fff;
+ box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+ color: white;
+ width: 350px;
+ height: 170px;
+ margin-top: 32%;
+ margin-left: 120px;
+ margin-right: 3px;
+}
+.container2{
+  display: flex;
+ display: inline-flex;
+ justify-content: center;
+ background-color: #fff;
+ box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+ color: white;
+ margin-top: 15px;
+ width: 350px;
+ height: 170px;
+ margin-left: 120px;
+ margin-right: 3px;
+}
+.span1{
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size:1.5rem;
+  font-weight: 600;
+    color: #316DC3;
+    margin-top: 7%;
+    margin-left: 80px;
+    margin-bottom: 3%px;
+    margin-left: 170px;
+}
+.img1{
+  margin-right: 210px;
+  margin-top: 7%;
+}
+.span2{
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size:1.5rem;
+  font-weight: 600;
+    color: #316DC3;
+    margin-top: 7%;
+    margin-left: 80px;
+    margin-bottom: 3%px;
+    margin-left: 170px;
+}
+.img2{
+  margin-right:370px;
+  margin-top: 7%;
+}
+.titlebar{
+  color:#316DC3;
+  font-family: 'Merriweather', serif;
+  margin-left: 10%;
+  margin-top: 5%;
+
+}
+.line{
+  color: #427900;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.empty1,.empty2{
+     width: 400px;
+    height: 100px;
+    color:#316DC3;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+
+    background-color: #fff;
+    display: flex;
+    display: inline-block;
+    margin: 4px;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+.empty3,.empty4{
+  margin: 4px;
+  width: 400px;
+  height: 100px;
+  color: #316DC3;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+
+  background-color:#fff;
+  display: flex;
+  display: inline-block;
+  margin: 4px;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    text-align: center;
+}
+.titletitle{
+  color:#316DC3;
+  font-family: 'Merriweather', serif;
+  margin-left: 70%;
+  position: absolute;
+  top: 326%;
+}
+.lineline{
+  color: #427900;
+  margin-left: 70%;
+  position: absolute;
+  top: 330%;
+}
+.textarea{
+  margin-left: 70%; 
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  margin-left: 70%;
+  position: absolute;
+  top: 340%;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+}
+
+.headimage{
+  color:#316DC3;
+  margin-top: 50px;
+  margin-left:41% ;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.headinggallery{
+  color:#427900;
+  display: inline-block;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+.titlesmallimage{
+  height: 60px;
+  margin-left: 47%;
+}
+.lin{
+  color:#427900;
+  display: inline-block;
+  margin-left: 46%;
+  font-weight: bolder;
+  
+}
+.lin12{
+  color:#427900;
+  display: inline-block;
+  margin: 20px;
+  font-weight: bolder;
+}
+.imagelast{
+  display: inline;
+  margin: 2px;
+  margin-left: 10%;
+}
+.footerdiv{
+  width: 100%;
+  height: 370px;
+  background-color: #666666;
+  margin-top: 10%;
+  display: block;
+  font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.2 ;
+}
+.footer{
+  color: #bbb;
+ display: block;
+ margin-left: 20%;
+}
+.span{
+  display: block;
+}
+.fa{
+  text-decoration: none;
+  color: white;
+  display: inline;
+
+}
+
+li{
+  display: inline;
+  list-style: none;
+  background-color: #316DC3;
+  font-size: 1.3rem;
+  border-radius: 30px 30px;
+  
+}
+.unorderedlist{
+  position: absolute;
+  top: 500%;
+  left: 700px;
+  
+}
+.conenct{
+font-family: 'Open Sans', sans-serif;
+color:#fff;
+margin-left: 20px;
+}
+.lastfooter{
+  width: 100%;
+  height: 50px;
+  background-color: #316DC3;
+}
+.span32{
+  color: white;
+  margin-top: 20px;
+  margin-left: 40%;
+}
